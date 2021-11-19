@@ -5,7 +5,7 @@ import user3 from "./images/user3.jpeg"
 
 const Testimonials = () => {
   return (
-    <div className="testimonials">
+    <div className="testimonials" id="testimonials">
       <div className="container">
         <h2>testimonials</h2>
         <span className="line"></span>
