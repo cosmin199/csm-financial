@@ -3,7 +3,7 @@ import john from "./images/john-doe.png"
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="container">
         <img src={john} alt="john" />
         <div className="col-2">
@@ -17,6 +17,7 @@ const About = () => {
             sapiente beatae, odio cumque, perferendis mollitia enim veniam,
             nostrum doloremque ex. Id expedita consectetur sapiente nam!
           </p>
+
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius
             nihil tempore in porro earum at. Officiis incidunt asperiores
